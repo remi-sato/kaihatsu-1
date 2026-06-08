@@ -162,8 +162,48 @@ main{
   font-size: 20px;
   margin: 10px 0;
 }
+
 .fa-solid{
   font-size: 60px;
+}
+
+.profile{
+  padding: 90px 0;
+  background-color: #ECEFF1;
+}
+
+.main-profile{
+  width: 1024px;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.profile-img-area{
+  width: 512px;
+  text-align: center;
+}
+
+.profile-img{
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.profile-text{
+  width: 512px;
+  color: #000000;
+}
+
+.p-title{
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.p-text{
+  font-size: 16px;
+  margin-bottom: 20px;
 }
 
 footer{
