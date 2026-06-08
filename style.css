@@ -80,7 +80,7 @@ main{
   padding-bottom: 90px;
 }
 
-.portfolio-title{
+.title{
   font-size: 32px;
   color: #000000;
   text-align: center;
@@ -94,7 +94,7 @@ main{
 
 }
 
-.portfolio-text{
+.text{
   font-size: 16px;
   color: #000000;
   text-align: center;
@@ -138,6 +138,32 @@ main{
 
 .work6{
   background-image: url("img/webcamp-mother.png");;
+}
+
+.feature{
+  padding: 90px 0;
+  color: #000000;
+}
+
+.strengths{
+  display: flex;
+  gap: 10px;
+  width: 980px;
+  margin: 0 auto;
+}
+
+.strength1,
+.strength2,
+.strength3{
+  width: 320px;
+}
+
+.sub-title{
+  font-size: 20px;
+  margin: 10px 0;
+}
+.fa-solid{
+  font-size: 60px;
 }
 
 footer{
