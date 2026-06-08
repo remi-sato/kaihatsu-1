@@ -52,6 +52,7 @@ main{
 .main-visual img{
   height: 650px;
   width: 100%;
+  object-fit: cover;
 }
 
 .main-text{
@@ -147,6 +148,7 @@ main{
 
 .strengths{
   display: flex;
+  align-items: center;
   gap: 10px;
   width: 980px;
   margin: 0 auto;
@@ -156,6 +158,7 @@ main{
 .strength2,
 .strength3{
   width: 320px;
+  text-align: center;
 }
 
 .sub-title{
@@ -204,6 +207,51 @@ main{
 .p-text{
   font-size: 16px;
   margin-bottom: 20px;
+}
+
+.contact{
+  padding: 90px 0;
+}
+
+.main-contact{
+  width: 800px;
+  display: flex;
+  align-items: flex-start;
+  margin: 0 auto;
+}
+
+.address{
+  width: 400px;
+  display: flex;
+  justify-content: center;
+}
+
+.address-contents{
+  text-align: left;
+}
+
+.icon{
+  width: 400px;
+  display: flex;
+  justify-content: center;
+}
+
+.icon-contents{
+  text-align: left;
+}
+
+.c-title{
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.c-text{
+  margin-bottom: 20px;
+}
+
+.fa-brands{
+  font-size: 50px;
+  margin-right: 20px;
 }
 
 footer{
