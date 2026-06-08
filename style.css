@@ -268,3 +268,59 @@ footer{
   text-align: center;
   color: #FAFAFA;
 }
+
+@media screen and (max-width: 767px){
+
+  .header-nav,
+  .works,
+  .strengths,
+  .main-profile,
+  .main-contact{
+    width: 90%;
+  }
+
+
+  .strengths,
+  .main-profile,
+  .main-contact{
+    flex-direction: column;
+  }
+
+  .main-visual img{
+    content: url("img/code.png");
+  }
+
+  .big{
+    font-size: 40px;
+  }
+
+  .mini{
+    font-size: 18px;
+  }
+
+  .work1,
+  .work3,
+  .work5{
+    display: none;
+  }
+
+  .works{
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .profile-img-area,
+  .profile-text{
+    width: 100%;
+    text-align: center;
+  }
+
+  .main-contact{
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .c-title{
+    text-align: center;
+  }
+}
